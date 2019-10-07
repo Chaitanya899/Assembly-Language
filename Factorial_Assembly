@@ -30,7 +30,7 @@ section.text
 	dec ebx
 	inc ecx
 	cmp ecx, dword[ebp-0x4]
-	jle L1
+	jl L1
 
 	push eax
 	push out
